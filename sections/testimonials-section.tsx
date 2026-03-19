@@ -6,21 +6,21 @@ import { Reveal } from '@/components/reveal';
 import { GlassCard, SectionHeading } from '@/components/ui';
 
 const testimonials = [
-  {
-    name: 'Carla Mendes',
-    company: 'Lume Design',
-    text: 'A Mttech elevou nossa presença online com um site muito mais profissional e estratégias que realmente geraram leads.'
-  },
-  {
-    name: 'Rafael Costa',
-    company: 'Orbix Tech',
-    text: 'O trabalho em SEO e performance trouxe mais tráfego qualificado e melhorou significativamente nossas conversões.'
-  },
-  {
-    name: 'Juliana Alves',
-    company: 'Bloom Clinic',
-    text: 'Equipe estratégica, criativa e muito comprometida com resultados. O projeto transmitiu autoridade desde o primeiro contato.'
-  }
+ {
+  name: 'Grimald',
+  company: 'Chaveiro Griamald',
+  text: 'Depois que a Mttech fez nosso site, a diferença foi nítida. Ficou muito mais profissional e começamos a receber bem mais contatos de clientes.'
+},
+{
+  name: 'Rafaela Costa',
+  company: 'Danielle Reumatologia',
+  text: 'O trabalho de SEO realmente deu resultado. Hoje recebemos mais visitas de pessoas certas, e isso aumentou bastante nossas vendas.'
+},
+{
+  name: 'Dr Ottavio',
+  company: 'Otavio Ortopedista',
+  text: 'Desde o início senti que estava lidando com uma equipe séria. O projeto ficou lindo e transmite muita confiança para quem acessa.'
+}
 ];
 
 export function TestimonialsSection() {

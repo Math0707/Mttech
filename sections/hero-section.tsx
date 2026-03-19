@@ -45,7 +45,9 @@ export function HeroSection() {
             transition={{ delay: 0.4 }}
             className="mt-10 flex flex-col gap-4 sm:flex-row"
           >
-            <CTAButton href="#contato">Solicitar orçamento</CTAButton>
+            <CTAButton href="https://wa.me/5511917562462" target="_blank">
+              Solicitar orçamento
+            </CTAButton>
             <CTAButton href="#contato" secondary>
               Falar com especialista
             </CTAButton>

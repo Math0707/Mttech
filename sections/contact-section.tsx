@@ -24,8 +24,8 @@ export function ContactSection() {
                 Estratégia digital, SEO, sites de alta performance e campanhas com foco em crescimento real.
               </p>
               <div className="mt-8 space-y-4 text-slate-300">
-                <p>contato@mttech.com</p>
-                <p>(11) 99999-9999</p>
+                <p>contatomttech@gmail.com</p>
+                <p>(11) 91756-2462</p>
                 <p>São Paulo, Brasil</p>
               </div>
             </GlassCard>

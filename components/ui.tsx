@@ -24,7 +24,7 @@ export function GlassCard({ children, className }: PropsWithChildren<{ className
   );
 }
 
-export function CTAButton({ href, children, secondary = false }: PropsWithChildren<{ href: string; secondary?: boolean }>) {
+export function CTAButton({ href, children, secondary = false }: PropsWithChildren<{ href: string; secondary?: boolean ; target?: string }>) {
   return (
     <motion.div whileHover={{ y: -3, scale: 1.01 }} whileTap={{ scale: 0.98 }}>
       <Link

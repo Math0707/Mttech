@@ -4,11 +4,27 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import { Reveal } from '@/components/reveal';
 import { SectionHeading } from '@/components/ui';
+import Image from 'next/image';
 
 const projects = [
-  { title: 'Ecom Pulse', category: 'SEO + CRO', description: 'Reposicionamento digital para e-commerce com foco em aquisição orgânica.' },
-  { title: 'Nexa Studio', category: 'Website', description: 'Site institucional premium com performance otimizada e UX voltada à conversão.' },
-  { title: 'FinGrow Ads', category: 'Marketing Digital', description: 'Campanhas integradas com aumento de leads qualificados e escala sustentável.' }
+  {
+    title: 'DoctorX',
+    category: 'SEO + CRO',
+    description: 'Reposicionamento digital para e-commerce com foco em aquisição orgânica.',
+    image: '/imgs/doctorx.png'
+  },
+  {
+    title: 'Otavio Pecora',
+    category: 'Website',
+    description: 'Site institucional premium com performance otimizada e UX voltada à conversão.',
+    image: '/imgs/otaviopecora.png'
+  },
+  {
+    title: 'Dra Danielle',
+    category: 'Marketing Digital',
+    description: 'Campanhas integradas com aumento de leads qualificados e escala sustentável.',
+    image: '/imgs/danielle.png'
+  }
 ];
 
 export function PortfolioSection() {
@@ -30,9 +46,17 @@ export function PortfolioSection() {
                 whileHover={{ y: -8 }}
                 className="group relative overflow-hidden rounded-[28px] border border-white/10 bg-slate-900/80 p-6"
               >
+
                 <div className="absolute inset-0 bg-gradient-to-br from-violet-600/20 via-transparent to-cyan-500/20 opacity-0 transition duration-300 group-hover:opacity-100" />
                 <div className="relative">
-                  <div className="mb-8 h-52 rounded-[24px] border border-white/10 bg-[radial-gradient(circle_at_top_left,rgba(124,58,237,0.35),transparent_35%),linear-gradient(135deg,rgba(15,23,42,1),rgba(8,47,73,0.9))]" />
+                  <div className="relative mb-8 h-52 overflow-hidden rounded-[24px] border border-white/10">
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover transition duration-500 group-hover:scale-105"
+                    />
+                  </div>
                   <p className="text-sm uppercase tracking-[0.2em] text-cyan-300">{project.category}</p>
                   <div className="mt-4 flex items-start justify-between gap-4">
                     <h3 className="text-2xl font-semibold text-white">{project.title}</h3>

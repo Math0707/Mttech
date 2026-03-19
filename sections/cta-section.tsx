@@ -13,7 +13,7 @@ export function CTASection() {
               Vamos construir uma presença digital forte, moderna e orientada a conversão para a sua empresa.
             </p>
             <div className="mt-8 flex justify-center">
-              <CTAButton href="#contato">Solicitar orçamento agora</CTAButton>
+              <CTAButton href="https://wa.me/5511917562462" target='_blank'>Solicitar orçamento agora</CTAButton>
             </div>
           </div>
         </Reveal>

@@ -48,7 +48,7 @@ export function Header() {
         </nav>
 
         <div className="hidden md:block">
-          <Link href="#contato" className="rounded-full border border-violet-400/50 bg-violet-500/10 px-5 py-3 text-sm font-medium text-white shadow-glow transition hover:-translate-y-0.5 hover:bg-violet-500/20">
+          <Link href="https://wa.me/5511917562462" target='_blank' className="rounded-full border border-violet-400/50 bg-violet-500/10 px-5 py-3 text-sm font-medium text-white shadow-glow transition hover:-translate-y-0.5 hover:bg-violet-500/20">
             Solicitar Orçamento
           </Link>
         </div>
